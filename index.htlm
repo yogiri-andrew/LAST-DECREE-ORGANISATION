@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAST DECREE | Terminal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="terminal">
+
+<header>
+<h1>⚜ LAST DECREE ⚜</h1>
+<p>THE FINAL ORDER SYSTEM</p>
+</header>
+
+<div class="login">
+<h2>ACCESS TERMINAL</h2>
+<input type="password" id="password" placeholder="CODE D'ACCÈS">
+<button onclick="login()">ENTRER</button>
+<p id="result"></p>
+</div>
+
+
+<section id="main">
+
+<h2>Bienvenue dans LAST DECREE</h2>
+
+<p>
+Une organisation dédiée aux archives, aux stratégies,
+à la création et à la maîtrise des décrets.
+</p>
+
+<nav>
+<a href="decree.html">📜 Décrets</a>
+<a href="ranks.html">⚔ Rangs</a>
+<a href="members.html">👥 Membres</a>
+<a href="archive.html">🗃 Archives</a>
+<a href="contact.html">📡 Contact</a>
+</nav>
+
+</section>
+
+
+<footer>
+© LAST DECREE | SYSTEM ONLINE
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
