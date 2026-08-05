@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Courier New", monospace;
+}
+
+body{
+    background:#050505;
+    color:#00ff88;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.terminal{
+    width:95%;
+    max-width:900px;
+    border:2px solid #00ff88;
+    padding:30px;
+    box-shadow:0 0 25px #00ff88;
+    background:#000;
+}
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:40px;
+    letter-spacing:5px;
+    text-shadow:0 0 15px #00ff88;
+}
+
+header p{
+    color:#888;
+    margin-top:10px;
+}
+
+
+.login{
+    text-align:center;
+    border:1px solid #00ff88;
+    padding:25px;
+    margin-bottom:30px;
+}
+
+
+.login input{
+    width:80%;
+    padding:12px;
+    background:black;
+    border:1px solid #00ff88;
+    color:#00ff88;
+    margin:15px;
+}
+
+
+button{
+    padding:12px 30px;
+    background:#00ff88;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+button:hover{
+    background:white;
+}
+
+
+#main{
+    text-align:center;
+}
+
+
+#main h2{
+    margin-bottom:20px;
+}
+
+
+#main p{
+    color:#ccc;
+    line-height:1.6;
+}
+
+
+nav{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+
+nav a{
+    text-decoration:none;
+    color:#00ff88;
+    border:1px solid #00ff88;
+    padding:12px 20px;
+    transition:.3s;
+}
+
+
+nav a:hover{
+    background:#00ff88;
+    color:black;
+    box-shadow:0 0 15px #00ff88;
+}
+
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#555;
+}
+
+
+/* Pages internes */
+
+.page{
+    text-align:center;
+}
+
+
+.card{
+    border:1px solid #00ff88;
+    padding:20px;
+    margin:20px 0;
+    background:#020202;
+}
+
+
+.card h2{
+    margin-bottom:15px;
+}
+
+
+ul{
+    list-style:none;
+}
+
+
+li{
+    margin:10px;
+    color:#ccc;
+}
+
+
+/* effet terminal */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+    linear-gradient(
+    rgba(0,255,136,0.03) 1px,
+    transparent 1px
+    );
+    background-size:100% 4px;
+    pointer-events:none;
+      }
