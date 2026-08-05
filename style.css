@@ -164,4 +164,9 @@ body::before{
     );
     background-size:100% 4px;
     pointer-events:none;
-      }
+      }.logo{
+width:120px;
+display:block;
+margin:auto;
+filter:drop-shadow(0 0 15px #00ff88);
+}
